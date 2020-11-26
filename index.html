@@ -168,45 +168,25 @@
 				footer p, footer ul
 				{
 				    font-size: 0.8em;
+				
+			@media all and (max-width :1080px){
+				body{
+					width:auto;
 				}
-				#tweet
-				{
-				    width: 28%;
+				.san{
+					display:none;
 				}
-
-				#mes_photos
-				{
-				    width: 35%;
+				section, nav ul, .espace{
+					flex-direction: column;
 				}
-
-				#mes_amis
-				{
-				    width: 31%;
+				aside{
+					width:auto;
 				}
-
-				#mes_photos img
-				{
-				    border: 1px solid #181818;
-				    margin-right: 2px;
+				footer div{
+						padding: 20px;
 				}
 
-				#listes_amis
-				{
-				    display: flex;
-				    justify-content: space-between;
-				}
-
-				#mes_amis ul
-				{
-				    list-style-image: url('images/ico_liensexterne.png');
-				    padding-left: 2px;
-				}
-
-				#mes_amis a
-				{
-				    text-decoration: none;
-				    color: #760001;
-				}
+			}
 
 		</style>
 	</head>

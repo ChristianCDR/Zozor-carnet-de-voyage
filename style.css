@@ -1,7 +1,7 @@
 /* Définition des polices personnalisées */
 body{
 	max-width:63%;
-	background: url("images/bulle.png") no-repeat 895px 505px, url("images/fond_jaune.png");
+	background: url("images/bulle.png") no-repeat 887px 505px, url("images/fond_jaune.png");
 	margin: auto;
 	font-family: 'Trebuchet MS',Arial, Sans-serif;
 	text-align: justify;
@@ -165,3 +165,42 @@ footer p, footer ul
 {
     font-size: 0.8em;
 }
+@media all and (max-width :1080px){
+	body{
+		width:auto;
+	}
+	.san{
+		display:none;
+	}
+	section, nav ul, .espace{
+		flex-direction: column;
+	}
+	aside{
+		width:auto;
+	}
+	footer div{
+			padding: 20px;
+	}
+
+}
+@media all and (max-device-width: 480px){
+body{
+		width:auto;
+	}
+	.san{
+		display:none;
+	}
+	section, nav ul, .espace{
+		flex-direction: column;
+	}
+	aside{
+		width:auto;
+	}
+	footer div{
+			padding: 20px;
+	}
+
+}
+
+}
+

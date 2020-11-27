@@ -91,9 +91,9 @@ p{
 	font-size: 1em;
 }
 .san{
-	min-width: 80%;
+	min-width: 100%;
 	min-height: 218px;
-	background: url("images/sanfrancisco.jpg") no-repeat;
+	background: url("images/sanfrancisco.jpg") repeat;
 	margin-top: 20px;
 	box-shadow: 0 6px 6px black;
 	border-radius:7px/7px;

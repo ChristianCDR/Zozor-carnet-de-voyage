@@ -1,10 +1,20 @@
 /* Définition des polices personnalisées */
 body{
-	max-width:80%;
+	max-width:76%;
 	background: url("images/bulle.png") no-repeat 850px 505px, url("images/fond_jaune.png");
 	margin: auto;
 	font-family: 'Trebuchet MS',Arial, Sans-serif;
 	text-align: justify;
+}
+.san{
+	min-width: 100%;
+	min-height: 218px;
+	background: url("images/sanfrancisco.jpg") no-repeat;
+	margin-top: 20px;
+	box-shadow: 0 6px 6px black;
+	border-radius:7px/7px;
+	position: relative;
+	bottom:0;
 }
 
 @font-face{
@@ -90,16 +100,7 @@ aside{
 p{
 	font-size: 1em;
 }
-.san{
-	min-width: 100%;
-	min-height: 218px;
-	background: url("images/sanfrancisco.jpg") no-repeat;
-	margin-top: 20px;
-	box-shadow: 0 6px 6px black;
-	border-radius:7px/7px;
-	position: relative;
-	bottom:0;
-}
+
 .intro{
 	color:white;
 	position:absolute;

@@ -164,21 +164,3 @@ footer p, footer ul
 {
     font-size: 0.8em;
 }
-@media all and (max-width :1080px){
-	body{
-		width:auto;
-	}
-	.san{
-		display:none;
-	}
-	section, nav ul, .espace{
-		flex-direction: column;
-	}
-	aside{
-		width:auto;
-	}
-	footer div{
-			padding: 20px;
-	}
-
-}

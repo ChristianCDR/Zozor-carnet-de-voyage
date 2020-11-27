@@ -91,7 +91,7 @@ p{
 	font-size: 1em;
 }
 .san{
-	min-width: 100%;
+	width: 100%;
 	min-height: 218px;
 	background: url("images/sanfrancisco.jpg") no-repeat;
 	margin-top: 20px;
@@ -163,44 +163,6 @@ nav a:hover
 footer p, footer ul
 {
     font-size: 0.8em;
-}
-#tweet
-{
-    width: 28%;
-}
-
-#mes_photos
-{
-    width: 35%;
-}
-
-#mes_amis
-{
-    width: 31%;
-}
-
-#mes_photos img
-{
-    border: 1px solid #181818;
-    margin-right: 2px;
-}
-
-#listes_amis
-{
-    display: flex;
-    justify-content: space-between;
-}
-
-#mes_amis ul
-{
-    list-style-image: url('images/ico_liensexterne.png');
-    padding-left: 2px;
-}
-
-#mes_amis a
-{
-    text-decoration: none;
-    color: #760001;
 }
 @media all and (max-width :1080px){
 	body{

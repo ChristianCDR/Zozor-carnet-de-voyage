@@ -186,6 +186,7 @@ footer p, footer ul
 @media all and (max-device-width: 480px){
 body{
 		width:auto;
+		background: url("images/fond_jaune.png");
 	}
 	.san{
 		display:none;
@@ -197,7 +198,7 @@ body{
 		width:auto;
 	}
 	footer div{
-			padding: 20px;
+			padding: 35px;
 	}
 
 }

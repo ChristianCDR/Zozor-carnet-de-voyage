@@ -164,7 +164,7 @@ footer p, footer ul
 {
     font-size: 0.8em;
 }
-/*#tweet
+#tweet
 {
     width: 28%;
 }
@@ -201,7 +201,7 @@ footer p, footer ul
 {
     text-decoration: none;
     color: #760001;
-}*/
+}
 @media all and (max-width :1080px){
 	body{
 		width:auto;

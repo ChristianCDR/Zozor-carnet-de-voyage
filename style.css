@@ -1,7 +1,7 @@
 /* Définition des polices personnalisées */
 body{
 	max-width:63%;
-	background: url("images/bulle.png") no-repeat 880px 505px, url("images/fond_jaune.png");
+	background: url("images/bulle.png") no-repeat 895px 505px, url("images/fond_jaune.png");
 	margin: auto;
 	font-family: 'Trebuchet MS',Arial, Sans-serif;
 	text-align: justify;

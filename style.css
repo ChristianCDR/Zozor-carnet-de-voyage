@@ -1,4 +1,11 @@
 /* Définition des polices personnalisées */
+body{
+	max-width:75%;
+	background: url("images/bulle.png") no-repeat 850px 505px, url("images/fond_jaune.png");
+	margin: auto;
+	font-family: 'Trebuchet MS',Arial, Sans-serif;
+	text-align: justify;
+}
 
 @font-face{
     font-family: 'BallparkWeiner';
@@ -21,13 +28,7 @@
     font-weight: normal;
     font-style: normal;
 }
-body{
-	max-width:75%;
-	background: url("images/bulle.png") no-repeat 850px 505px, url("images/fond_jaune.png");
-	margin: auto;
-	font-family: 'Trebuchet MS',Arial, Sans-serif;
-	text-align: justify;
-}
+
 header{
 	display:flex;
 	justify-content:space-between;
